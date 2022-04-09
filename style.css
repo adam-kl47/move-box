@@ -1,0 +1,20 @@
+/* background color          */
+/* font color*               */
+/* green color*              */
+/* cream color*              */
+/* begie color*              */
+body {
+  background-color: #1f1f20;
+  color: #fff;
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  background-color: #4b8143;
+}
+/*# sourceMappingURL=style.css.map */

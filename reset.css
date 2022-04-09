@@ -1,0 +1,27 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*::-webkit-scrollbar { 
+  display: none; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+/* font-family: 'La Belle Aurore', cursive; */
+
+.disable-selection {
+    -webkit-touch-callout: none; /* iOS Safari                           */
+      -webkit-user-select: none; /* Safari                               */
+       -khtml-user-select: none; /* Konqueror HTML                       */
+         -moz-user-select: none; /* Firefox w przeszłości (stare wersje) */
+          -ms-user-select: none; /* Internet Explorer (>=10) / Edge      */
+              user-select: none; /* Aktualnie wspierane przez:           */
+                                 /* Chrome, Opera and Firefox            */
+}
